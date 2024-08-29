@@ -1,0 +1,190 @@
+@charset "utf-8";
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  font-family: 'Cafe24Oneprettynight';
+  font-size: 16px;
+  line-height: 1.5;
+  color: #222;
+  min-width: 1320px;
+}
+h1{
+    font-family: 'Cafe24SsurroundAir';
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #222;
+}
+/* 메뉴 */
+.header{
+    width: 1320px;
+    margin:20px  auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header ul{
+    display: flex;
+
+}
+.logo{
+    margin-right: 30px;
+}
+.header ul a{
+    /* color: #fff; */
+    display: block;
+    border-radius: 50px;
+    background-color: #A9A196;
+    color: #fff;
+    padding: 10px 20px ;
+    margin-left: 10px;
+
+}
+.header ul a:hover{
+    color: #56442C;
+}
+/* 메뉴 */
+
+/* 탭메뉴 꾸미기 */
+.tab {
+    width: 1320px;
+    margin: 100px auto;
+    overflow: hidden;
+}
+
+.tabnav {
+    width: 100%;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tabnav li a {
+    display: block;
+    font-size: 30px;
+    font-family:'Cafe24SsurroundAir' ;
+    font-weight: 900;
+    margin-bottom: 50px;
+    color: #4A290B;
+    padding: 10px 20px;
+}
+
+.tabnav li a:hover {
+    background:  #A9A196;
+    color:#fff;
+    border-radius: 50px;
+
+}
+
+/* 탭메뉴 클릭했을 때 변화 꾸미기 */
+.tabnav li a.active {
+    background:  #A9A196;
+    color:#fff;
+    border-radius: 50px;
+}
+
+/* 탭컨테츠 꾸미기 */
+.tabcontent {
+    height: auto;
+}
+/* tab01꾸미기 */
+#tab01 ul{
+    display: flex;
+    justify-content: space-between;
+}
+#tab01 p{
+    font-size:16px ;
+    font-family: 'Cafe24SsurroundAir';
+    font-weight: 900;
+}
+#tab01 span{
+    padding-left: 140px;
+}
+#tab01 b{
+    padding-left: 60px;
+}
+/* tab01꾸미기 */
+
+/* tab02 꾸미기*/
+#tab02 ul{
+    display: flex;
+    justify-content: space-between;
+}
+#tab02 p{
+    font-size:16px ;
+    font-family: 'Cafe24SsurroundAir';
+    font-weight: 900;
+}
+#tab02 span{
+    padding-left: 120px;
+}
+#tab02 b{
+    padding-left: 120px;
+}
+/* tab02 꾸미기*/
+
+/* tab03꾸미기 */
+#tab03 ul{
+    display: flex;
+    justify-content: space-between;
+}
+#tab03 p{
+    font-size:16px ;
+    font-family: 'Cafe24SsurroundAir';
+    font-weight: 900;
+}
+#tab03 span{
+    padding-left: 120px;
+}
+#tab03 b{
+    padding-left: 100px;
+}
+/* tab03꾸미기 */
+
+/* 푸터 */
+.footer{
+    background-color: #BFB1A4;
+    padding: 50px 0;
+}
+.footer_in{
+    width: 1320px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    color: #fff;
+}
+.left p{
+    font-size: 14px;
+}
+.left span{
+    padding: 0 30px;
+}
+
+.right{
+    display: flex;
+}
+.text_right a{
+    display: block;
+    font-size: 14px;
+    color: #fff;
+}
+.text_right a:hover{
+    color: #4A290B;
+}
+.text_right{
+    margin-right: 80px;
+}
+.sns a:hover{
+    opacity: 0.5;
+}

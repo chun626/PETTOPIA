@@ -1,0 +1,325 @@
+@charset "utf-8";
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  font-family: 'Cafe24Oneprettynight';
+  font-size: 16px;
+  line-height: 1.5;
+  color: #222;
+  min-width: 1320px;
+}
+h1{
+    font-family: 'Cafe24SsurroundAir';
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #222;
+}
+/* 메뉴 */
+.header{
+    width: 1320px;
+    margin:20px  auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header ul{
+    display: flex;
+
+}
+.logo{
+    margin-right: 30px;
+}
+.header ul a{
+    /* color: #fff; */
+    display: block;
+    border-radius: 50px;
+    background-color: #A9A196;
+    color: #fff;
+    padding: 10px 20px ;
+    margin-left: 10px;
+
+}
+.header ul a:hover{
+    color: #56442C;
+}
+/* 메뉴 */
+video{
+    width: 100%;
+}
+.mini{
+    width: 1320px;
+    height: 630px;
+    margin: auto;
+    display: flex;
+}
+.text1{
+    margin: 180px 0 0;
+}
+.text1 h1{
+    font-size: 16px;
+    color: #6A4322;
+    margin-bottom: 30px ;
+}
+.text1 p{
+    margin-bottom: 100px;
+}
+.text1 a{
+    display: inline-block;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #4A290B;
+    padding: 10px 20px;
+}
+.text1 a:hover{
+    background-color: #998774;
+}
+/* 갤러리 꾸미기 */
+.gallery {
+    width: 1320px;
+    margin: 50px auto;
+    padding: 0 50px 40px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.gallery_inner {
+    width: 100%;
+    overflow: hidden;
+}
+
+.gallery .swiper-slide{
+    text-align: center;
+}
+.gallery .swiper-slide h2{
+    color: #684A2B;
+    margin-top: 20px;
+    font-family: 'Cafe24SsurroundAir';
+    font-size: 20px;
+}
+.gallery .swiper-slide h3{
+    color: #505050;
+    font-family: 'Cafe24SsurroundAir';
+    font-size: 18px;
+    margin: 20px 0;
+}
+.gallery .swiper-slide .t1{
+    font-family: 'Cafe24SsurroundAir';
+    font-weight: bold;
+    color: #684A2B;
+    display: inline-block;
+    border-radius: 50px;
+    border: 1px solid #4A290B;
+    padding: 10px 20px;
+    /* background: url(../images/cart-icon.png)no-repeat 10px center; */
+    
+}
+.gallery .swiper-slide img {
+    display: block;
+    width: 100%;
+}
+/* 이동버튼 이미지로 바꾸기
+.gallery .swiper-button-prev,
+.gallery .swiper-button-next{
+    width: 50px;
+    height: 50px;
+}
+.gallery .swiper-button-prev:after,
+.gallery .swiper-button-next:after{
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+.gallery .swiper-button-prev:after{
+    background: url(../images/prev.png);
+}
+.gallery .swiper-button-next:after{
+    background: url(../images/next.png);
+}
+*/
+
+/*이동버튼 영역 색상 바꾸기*/
+.gallery .swiper-button-prev,
+.gallery .swiper-button-next {
+    color:#684A2B;
+}
+
+/*이동버튼 영역 호버 시 색상 바꾸기*/
+.gallery .swiper-button-prev:hover,
+.gallery .swiper-button-next:hover {
+    color: #422f1b;
+}
+
+/* 블릿버튼 크기, 색상, 투명도 */
+.gallery .swiper-pagination-bullet {
+    background: #684A2B;
+    width: 10px;
+    height: 10px;
+    opacity: 0.5;
+}
+
+/* 블릿버튼 페이지 표시날 때 투명도 */
+.gallery .swiper-pagination-bullet-active {
+    opacity: 1;
+}
+
+/* 블릿버튼 위치 */
+.gallery .swiper-horizontal>.swiper-pagination-bullets,
+.gallery .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: 0px;
+}
+
+.best {
+    width: 1320px;
+    margin: 150px auto;
+}
+.best h1{
+    color: #4A290B;
+}
+.time{
+    width: 1320px;
+    display: flex;
+    margin: 100px auto;
+    justify-content: space-between;
+}
+.text2 h1{
+    font-size: 25px;
+    color: #684A2B;
+}
+.text2 span{
+    font-size: 18px;
+    text-decoration: line-through;
+    color: #684A2B;
+}
+.text2 b{
+    font-size: 20px;
+    display: inline-block;
+    padding: 0 10px;
+    color: #684A2B;
+}
+.text2 h2{
+    color: #684A2B;
+}
+.text2 a{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4A290B;
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.text2 a:hover{
+    background-color: #998774;
+}
+.contest{
+    background-color: #B9A99A;  
+}
+.marquee{
+    height: 180px;
+    padding: 10px 0;
+    overflow: hidden;
+    position: relative;
+    margin: 20px 0;
+}
+.marquee div{
+    width: 200%;
+    height: 180px;
+    background: url(../images/iloveyou.png) repeat-x;
+    position: absolute;
+    animation: marquee 7s linear infinite;
+}
+@keyframes marquee{
+    0%{left: 0;}
+    100%{left: -100%;}
+}
+.contest_in{
+    width: 1320px;
+    margin: auto;
+    padding-top: 100px;
+}
+.contest_in h1{
+    text-align: center;
+    font-family: 'Cafe24SsurroundAir';
+    color: #684A2B;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+.contest_in p{
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 18px;
+}
+.img{
+    display: flex;
+    justify-content: space-between;
+}
+.img div{
+    display: flex;
+    width: 757px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.best_in{
+    width: 1320px;
+    margin: 100px auto;
+}
+.best_in h1{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 40px;
+    color: #4A290B;
+}
+.best_in ul{
+    display: flex;
+    justify-content: space-between;
+}
+.main_banner1{
+    width: 100%;
+    display: block;
+}
+/* 푸터 */
+.footer{
+    background-color: #BFB1A4;
+    padding: 50px 0;
+}
+.footer_in{
+    width: 1320px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    color: #fff;
+}
+.left p{
+    font-size: 14px;
+}
+.left span{
+    padding: 0 30px;
+}
+
+.right{
+    display: flex;
+}
+.text_right a{
+    display: block;
+    font-size: 14px;
+    color: #fff;
+}
+.text_right a:hover{
+    color: #4A290B;
+}
+.text_right{
+    margin-right: 80px;
+}
+.sns a:hover{
+    opacity: 0.5;
+}
