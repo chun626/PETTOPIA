@@ -155,6 +155,10 @@ a {
 .text_right{
     margin-right: 80px;
 }
+.sns{
+    display: flex;
+    gap: 10px;
+}
 .sns a:hover{
     opacity: 0.5;
 }
